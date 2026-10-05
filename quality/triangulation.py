@@ -33,3 +33,8 @@ def run(facts):
         result.append(fact)
 
     return result
+
+
+def compare(facts):
+    """Backward-compatible triangulation API."""
+    return run(facts)
