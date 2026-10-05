@@ -1,0 +1,8 @@
+authority:
+  official_government: 1.00
+  official_company: 0.95
+  regulatory_filing: 0.98
+  recognized_research: 0.85
+  reputable_news: 0.75
+  secondary_source: 0.55
+  unknown: 0.25

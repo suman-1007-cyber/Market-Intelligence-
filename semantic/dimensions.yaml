@@ -1,0 +1,8 @@
+dimensions:
+  - date
+  - period
+  - geography
+  - company
+  - product
+  - customer
+  - category

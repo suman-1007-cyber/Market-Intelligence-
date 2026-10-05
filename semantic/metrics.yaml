@@ -1,0 +1,16 @@
+metrics:
+  revenue:
+    definition: Total revenue for the period
+    unit: currency
+  growth_rate:
+    definition: Period-over-period percentage growth
+    unit: percent
+  market_share:
+    definition: Entity value divided by total market value
+    unit: percent
+  average_price:
+    definition: Mean observed price
+    unit: currency
+  customer_count:
+    definition: Number of unique customers
+    unit: count

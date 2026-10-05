@@ -1,0 +1,25 @@
+project:
+  name: market-intelligence
+  version: "1.0.0"
+  mode: deterministic
+
+storage:
+  bronze: storage/bronze
+  silver: storage/silver
+  gold: storage/gold
+  cache: storage/cache
+  database: storage/db/miae.duckdb
+
+quality:
+  duplicate_policy: preserve_latest
+  missing_value_policy: report
+  conflict_policy: retain_and_flag
+
+evidence:
+  require_source: true
+  require_retrieval_time: true
+  require_hash: true
+
+analytics:
+  forecast_horizon: 4
+  minimum_observations: 3

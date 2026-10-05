@@ -1,0 +1,27 @@
+# Market Intelligence & Analytics Engine
+
+Deterministic, evidence-first market intelligence system.
+
+Architecture:
+
+QUESTION
+→ INVESTIGATION PLAN
+→ SOURCE DISCOVERY
+→ DATA INGESTION
+→ BRONZE RAW EVIDENCE
+→ QUALITY + CLEANING
+→ ENTITY + DATA CONFORMANCE
+→ SILVER ANALYTICS DATA
+→ SEMANTIC METRICS
+→ MARKET / COMPETITOR / CUSTOMER ENGINES
+→ FORECAST + SCENARIO
+→ OPPORTUNITY / RISK
+→ VISUALIZATION
+→ EVIDENCE REPORT
+→ OWNER
+
+Core principle:
+
+SOURCE → RAW EVIDENCE → CLEAN DATA → METRIC → ANALYSIS → CHART → CONCLUSION
+
+No LLM is required by the core analytical engine.

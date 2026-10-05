@@ -1,0 +1,21 @@
+sources:
+  - id: official_company
+    type: official_company
+    authority: 0.95
+    enabled: true
+  - id: government
+    type: official_government
+    authority: 1.00
+    enabled: true
+  - id: regulatory
+    type: regulatory_filing
+    authority: 0.98
+    enabled: true
+  - id: research
+    type: recognized_research
+    authority: 0.85
+    enabled: true
+  - id: news
+    type: reputable_news
+    authority: 0.75
+    enabled: true

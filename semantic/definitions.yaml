@@ -1,0 +1,5 @@
+definitions:
+  evidence_confidence: Combined source and validation confidence.
+  certified_data: Data that passed schema and quality validation.
+  market_share: entity_value / market_total.
+  growth_rate: (current - previous) / previous.
