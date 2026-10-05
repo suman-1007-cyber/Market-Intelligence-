@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from quality.evidence.freshness import assess
 from quality.evidence.conflicts import detect
 from quality.evidence.confidence import score

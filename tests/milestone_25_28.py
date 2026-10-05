@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from sources.authority import score as authority_score
 from quality.evidence.triangulation_v2 import analyze
 from entities.resolution_confidence import score as entity_score

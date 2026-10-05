@@ -1,6 +1,11 @@
 from pathlib import Path
 import pandas as pd
 
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from storage.parquet import write, read
 from quality.validation import validate_dataframe
 from analytics.market.engine import market_share, market_summary
